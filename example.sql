@@ -10,7 +10,7 @@ CREATE TABLE `author` (
 );
  
 --
--- Dumping data for table `author`
+-- Dumping data for table `author` //콤보박스의 목록을 바꾸고싶으면 아래 이름을 바꾸면 됨
 --
  
 INSERT INTO `author` VALUES (1,'egoing','developer');
@@ -18,7 +18,7 @@ INSERT INTO `author` VALUES (2,'duru','database administrator');
 INSERT INTO `author` VALUES (3,'taeho','data scientist, developer');
  
 --
--- Table structure for table `topic`
+-- Table structure for table `topic`//이 부분에서 글자수 제한이 있음
 --
 CREATE TABLE `topic` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
