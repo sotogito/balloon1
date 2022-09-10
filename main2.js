@@ -14,17 +14,18 @@ var app = http.createServer(function(request,response){
     //홈화면 불러오기
     if(pathname === '/'){
       if(queryData.id === undefined){
-          topic.home(request,response);
-        
+        topic.home(request,response);
        
       
-      } else {
+      }else {
         //홈화면에서 목록 클릭했을 때
         topic.page(request,response);
    
            
 
       }
+      
+      
 
      ///////////////////////////////////////////////////////////////////////////////
     } else if(pathname === '/create'){
